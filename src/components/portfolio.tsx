@@ -26,17 +26,17 @@ const dataPortfolio = [
 
 export const Portfolio = () => {
   return (
-    <section className="px-6 md:px-16 bg-black text-white">
+    <section className="px-6 md:px-16 mb-16 bg-black text-white">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold mb-10 text-center">
           My <span className="text-blue-400">Portfolio</span>
         </h2>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {dataPortfolio.map((item, index) => (
             <div
               key={index}
-              className="group bg-gray-900 rounded-2xl overflow-hidden shadow-lg hover:shadow-blue-500/20 transition duration-300"
+              className="group rounded-2xl overflow-hidden border border-white/10 hover:border-blue-400 shadow-lg hover:shadow-blue-500/20 transition duration-300 bg-gradient-to-b from-gray-900 to-black"
             >
               <div className="relative w-full h-56 overflow-hidden">
                 <Image
