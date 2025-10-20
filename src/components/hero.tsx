@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const Hero = () => {
   return (
-    <section className="flex pt-30 min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-950 px-8 md:px-20">
+    <section className="flex pt-30 min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-950 px-20 md:px-20">
       <div className="max-w-xl text-left">
         <h1 className="text-4xl md:text-6xl font-semibold text-white leading-tight">
           Hi, it&apos;s{" "}
@@ -27,12 +27,6 @@ export const Hero = () => {
             className="px-6 py-3 bg-blue-500 hover:bg-indigo-600 text-white font-medium rounded-xl shadow-lg transition-all duration-300"
           >
             View Projects
-          </Link>
-          <Link
-            href="#contact"
-            className="px-6 py-3 border border-blue-400 text-indigo-300 hover:bg-indigo-500/10 rounded-xl font-medium transition-all duration-300"
-          >
-            Contact Me
           </Link>
         </div>
       </div>

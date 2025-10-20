@@ -26,7 +26,7 @@ const dataPortfolio = [
 
 export const Portfolio = () => {
   return (
-    <section className="px-6 md:px-16 mb-16 bg-black text-white">
+    <section className="px-6 md:px-16 mb-16 bg-black text-white" id="portfolio">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold mb-10 text-center">
           My <span className="text-blue-400">Portfolio</span>
